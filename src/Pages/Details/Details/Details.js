@@ -7,10 +7,10 @@ const Details = () => {
     const { serviceId } = useParams();
     const [details, setDetails] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/service/${serviceId}`)
+        fetch(`https://warm-spire-28182.herokuapp.com/service/${serviceId}`)
             .then(res => res.json())
             .then(data => setDetails(data));
-    }, [])
+    }, [serviceId])
     // let singleDetails = details.find(prod => parseInt(prod._id) === parseInt(serviceId))
     // if (typeof (singleDetails) == 'undefined') {
     //     singleDetails = '';

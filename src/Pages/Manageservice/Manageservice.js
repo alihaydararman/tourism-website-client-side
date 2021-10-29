@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Manageservice = ({ service }) => {
     const [services, setServices] = useState([]);
     const handleDelete = id => {
-        const url = `http://localhost:5000/service/${id}`;
+        const url = `https://warm-spire-28182.herokuapp.com/service/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

@@ -7,7 +7,7 @@ const AddService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/service', data)
+        axios.post('https://warm-spire-28182.herokuapp.com/service', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Data successfull inserted')
