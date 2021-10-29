@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Cox's bazar",
+        "price": "7500",
+        "packege": "3 Days",
+        "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island.",
+        "img": "https://dailyasianage.com/library/2019/09/28/1569705652_5.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Saint Martin's",
+        "price": "9000",
+        "packege": "2 Days",
+        "description": "St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip",
+        "img": "https://i.ytimg.com/vi/ssU0VFliS9g/maxresdefault.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Rangamati",
+        "price": "5000",
+        "packege": "3 Days",
+        "description": "It refers to knowing (“gnosis”) about the health of a client. Typically, diagnostic research focuses on estimating the sensitivity and specificity of individual diagnostic tests, their predictive values, and other parameters of interest (such as likelihood ratios, ROC curves, test reliability).",
+        "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/48/d7/a9/star-land.jpg?w=500&h=300&s=1"
+    },
+    {
+        "id": 4,
+        "name": "Sylhet",
+        "price": "4000",
+        "packege": "3 Days",
+        "description": "Sylhet is a city in eastern Bangladesh, on the Surma River. It’s known for its Sufi shrines, like the ornate tomb and mosque of 14th-century saint Hazrat Shah Jalal, now a major pilgrimage site near Dargah Gate. The tiny Museum of Rajas contains belongings of the local folk poet Hasan Raja. A 3-domed gateway stands at the 17th-century Shahi Eidgah, a huge open-air hilltop mosque built by Emperor Aurangzeb",
+        "img": "https://live.staticflickr.com/569/20626643544_fd696cfdcd_b.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Kuakata",
+        "price": "6500",
+        "packege": "2 Days",
+        "description": "Kuakata is a town in southern Bangladesh known for its panoramic sea beach. Kuakata beach is a sandy expanse 18 kilometres long and 3 kilometres wide. From the beach one can have an unobstructed view of both sunrise and sunset over the Bay of Bengal.",
+        "img": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/kuakata-beach-bhossain.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Nijhum Dwip",
+        "price": "3000",
+        "packege": "3 Days",
+        "description": "Nijhum Dwip is a small island under Hatiya upazila. It is situated in Noakhali District in Bangladesh. Once it was called Char Osmani, Baluar Char, Golden Island A cluster of islands emerged in the early 1950s as an alluvium in the shallow estuary of the Bay of Bengal on the south of Noakhali.",
+        "img": "https://www.observerbd.com/2015/10/01/1443709096.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mohamaya Mohamaya",
+        "price": "5000",
+        "packege": "3 Days",
+        "description": "Mohamaya is an irrigation project to aid the locals. A rubber dam is built to preserve the water from the three main streams from the hillocks nearby. It was inaugurated by our Prime minister during December of 2010. Now a days a lot of tourists use to visit this place.",
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/1b/0f/1f/82/mohamaya-lake-mirsarai.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sundobon",
+        "price": "2000",
+        "packege": "3 Days",
+        "description": "Khulna is the third largest city in Bangladesh after Dhaka and Chittagong. It is the administrative territory of Khulna District and Khulna Division.The economy of Khulna is the third largest in the .",
+        "img": "https://i.ytimg.com/vi/mQRGWyYaylI/hqdefault.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Bandarban",
+        "price": "2500",
+        "packege": "3 Days",
+        "description": "Bandarban, is a district in South-Eastern Bangladesh, and a part of the Chittagong Division. It is one of the three hill districts of Bangladesh and a part of the Chittagong Hill Tracts, the others being Rangamati District and Khagrachhari District. Bandarban city is the headquarters of the Bandarban district. ",
+        "img": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/y8eC0WBzPEEVyKIGGjcM3zKIgirEYLTLvioF3GaP.jpeg"
+    }
+]
