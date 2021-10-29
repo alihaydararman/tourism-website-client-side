@@ -3,7 +3,7 @@
 
 My Project Live Link: [https://serene-noyce-1e2f7d.netlify.app/](https://serene-noyce-1e2f7d.netlify.app/).
 
-My Server Live Link: [https://serene-noyce-1e2f7d.netlify.app/](https://serene-noyce-1e2f7d.netlify.app/).
+My Server Live Link: [https://warm-spire-28182.herokuapp.com/](https://warm-spire-28182.herokuapp.com/).
 
 <ul>
 <p>About this website is given below</p>
