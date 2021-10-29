@@ -1,49 +1,43 @@
 import React from 'react';
-import doctor1 from '../../../images/Doctor/doctor-1.jpg';
-import doctor2 from '../../../images/Doctor/doctor-2.jpg';
-import doctor3 from '../../../images/Doctor/doctor-3.jpg';
-import doctor4 from '../../../images/Doctor/doctor-4.jpg';
-import doctor5 from '../../../images/Doctor/doctor-5.jpg';
-import doctor6 from '../../../images/Doctor/doctor-6.jpg';
-import doctor7 from '../../../images/Doctor/doctor-7.jpg';
+
 import Team from '../Team/Team';
 
 
 const teams = [
     {
-        img: doctor1,
-        name: 'Dr. Ali Haydar',
-        expertize: 'Medicine Specialist'
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Ali Haydar',
+        expertize: 'Gazipur Branch'
     },
     {
-        img: doctor2,
-        name: 'Dr. Saidul Islam',
-        expertize: 'Neoro Specialist'
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Saidul Islam',
+        expertize: 'Chitagong Branch'
     },
     {
-        img: doctor3,
-        name: 'Dr. Tanjina Akter',
-        expertize: 'Skin Specialist'
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Tanjina Akter',
+        expertize: 'Rajshahi Branch'
     },
     {
-        img: doctor4,
-        name: 'Dr. Khorshed Alam',
-        expertize: 'Eye Specialist'
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Khorshed Alam',
+        expertize: 'Dhaka Branch'
     },
     {
-        img: doctor5,
-        name: 'Dr. Hamidur Rahman',
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Hamidur Rahman',
         expertize: 'Orthopaedics Specialist'
     },
     {
-        img: doctor6,
-        name: 'Dr. Arfat khan',
-        expertize: 'Dental Specialist'
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
+        name: ' Arfat khan',
+        expertize: 'Feni Branch'
     },
     {
-        img: doctor7,
+        img: 'https://pbs.twimg.com/profile_images/1390969833383088128/l0zjzIFk_400x400.jpg',
         name: 'Eshita Islam',
-        expertize: 'Dr. Gyni Specialist'
+        expertize: 'Cumilla Branch'
     },
 ]
 
