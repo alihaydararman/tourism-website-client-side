@@ -1,4 +1,4 @@
-# Project Name : Haydar Madecal Center
+# Project Name : Fenian Tourism
 
 
 My Project Live Link: [https://serene-noyce-1e2f7d.netlify.app/](https://serene-noyce-1e2f7d.netlify.app/).
