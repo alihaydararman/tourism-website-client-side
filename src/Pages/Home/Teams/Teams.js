@@ -21,6 +21,7 @@ const teams = [
     },
     {
         img: 'https://i1.sndcdn.com/avatars-XN22Dy2e13aLWsyM-X0EG1Q-t500x500.jpg',
+        name: ' Samim Hasan',
         expertize: 'Dhaka Branch'
     },
     {
@@ -35,6 +36,7 @@ const teams = [
     },
     {
         img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPaSVyXGM2Zc5ebGnCiPFYXNseYbU6Dsr7Bg&usqp=CAU',
+        name: ' Afrin jahan',
         expertize: 'Cumilla Branch'
     },
 ]

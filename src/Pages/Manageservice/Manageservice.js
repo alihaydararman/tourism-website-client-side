@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Manageservice = ({ service, setServices, services }) => {
 
@@ -28,7 +30,8 @@ const Manageservice = ({ service, setServices, services }) => {
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
                     <button onClick={() => handleDelete(service._id)} className="btn btn-primary">DELETE</button>
-                    <button className="btn btn-primary">UPDATE</button>
+                    <Link className="btn btn-primary" as={HashLink} to={`/service/updatedata/${service._id}`}>UPDATE</Link>
+
                 </div>
             </div>
         </div>

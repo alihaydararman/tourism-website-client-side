@@ -15,6 +15,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import LocationGallery from './Pages/Gallery/LocationGallery/LocationGallery';
 import Manageservices from './Pages/Manageservices/Manageservices';
+import UpdateData from './Pages/UpdateData/UpdateData';
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
             </Route>
             <Route path='/register'>
               <Register></Register>
+            </Route>
+            <Route path='/service/updatedata/:serviceId'>
+              <UpdateData></UpdateData>
             </Route>
             <Route path='/manageservices'>
               <Manageservices></Manageservices>
