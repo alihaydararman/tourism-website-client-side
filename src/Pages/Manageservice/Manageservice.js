@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Manageservice = ({ service }) => {
-    const [services, setServices] = useState([]);
+const Manageservice = ({ service, setServices, services }) => {
+
     const handleDelete = id => {
         const url = `https://warm-spire-28182.herokuapp.com/service/${id}`;
         fetch(url, {

@@ -18,11 +18,13 @@ const Manageservices = () => {
                     services.map(service => <Manageservice
                         key={service._id}
                         service={service}
+                        setServices={setServices}
+                        services={services}
+
                     ></Manageservice>)
                 }
             </div>
         </div>
     );
 };
-
 export default Manageservices;
