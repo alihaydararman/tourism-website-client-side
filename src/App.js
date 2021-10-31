@@ -57,9 +57,9 @@ function App() {
             <Route path='/myorder'>
               <ShowmyOrder></ShowmyOrder>
             </Route>
-            {/* <Route path='/myallorder'>
+            <Route path='/myallorder'>
               <MyAllOrders></MyAllOrders>
-            </Route> */}
+            </Route>
             <PrivateRoute path='/service/updatedata/:serviceId'>
               <UpdateData></UpdateData>
             </PrivateRoute>

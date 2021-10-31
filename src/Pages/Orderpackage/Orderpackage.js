@@ -7,7 +7,6 @@ import './Orderpackage.css'
 const Orderpackage = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        console.log(data)
         reset(data)
         axios.post('http://localhost:5000/orders', data)
             .then(result => {
@@ -16,7 +15,6 @@ const Orderpackage = () => {
             })
     };
     const { user } = useAuth();
-    console.log(user)
     return (
         <div className="container orderservice">
             <form onSubmit={handleSubmit(onSubmit)}>

@@ -19,14 +19,13 @@ const ShowmyOrder = () => {
     useEffect(() => {
         axios.get(`http://localhost:5000/orders/${user.email}`)
             .then(result => {
-                console.log(result.data);
                 setUsero(result.data)
             })
     }, [user]);
     return (
         <div className='container'>
 
-            <h1 className="bg-dark text-light">My Order</h1><br />
+            <h1 className="bg-dark text-light">My Package Order</h1><br />
             <hr />
             <table className='table'>
                 <thead class="thead-dark">
