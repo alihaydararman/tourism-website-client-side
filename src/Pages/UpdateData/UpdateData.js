@@ -62,6 +62,7 @@ const UpdateData = () => {
             .then(data => {
                 if (data.modifiedCount > 0) {
                     alert('updated succesfully')
+                    setService({});
                 }
             })
         e.preventDefault();

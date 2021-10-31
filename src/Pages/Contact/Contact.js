@@ -8,10 +8,10 @@ const Contact = () => {
             <div id='contact' className="container px-1 py-5 mx-auto">
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-                        <h1>HAYDAR MEDICAL CENTER</h1>
+                        <h1>FENIAN TOURISM</h1>
                         <h4 className="blue-text">Just answer a few questions<br /> so that we can personalize the right experience for you.</h4>
                         <div className="card">
-                            <h5 className="text-center mb-4">Powering world-class Hospital Haydar Medical Center</h5>
+                            <h5 className="text-center mb-4">Powering world-class Hospital Fenian Tourism</h5>
                             <form className="form-card" onsubmit="event.preventDefault()">
                                 <div className="row justify-content-between text-left">
                                     <div className="form-group col-sm-6 flex-column d-flex"> <label className="form-control-label px-3">First name<span className="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Enter your first name" onblur="validate(1)" /> </div>
