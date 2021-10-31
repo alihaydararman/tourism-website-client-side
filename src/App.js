@@ -54,12 +54,12 @@ function App() {
             <Route path='/orderpackege'>
               <Orderpackage></Orderpackage>
             </Route>
-            <Route path='/myorder'>
+            <PrivateRoute path='/myorder'>
               <ShowmyOrder></ShowmyOrder>
-            </Route>
-            <Route path='/myallorder'>
+            </PrivateRoute>
+            <PrivateRoute path='/myallorder'>
               <MyAllOrders></MyAllOrders>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path='/service/updatedata/:serviceId'>
               <UpdateData></UpdateData>
             </PrivateRoute>
