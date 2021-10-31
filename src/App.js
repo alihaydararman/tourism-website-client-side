@@ -48,12 +48,12 @@ function App() {
             <Route path='/register'>
               <Register></Register>
             </Route>
-            <Route path='/service/updatedata/:serviceId'>
+            <PrivateRoute path='/service/updatedata/:serviceId'>
               <UpdateData></UpdateData>
-            </Route>
-            <Route path='/manageservices'>
+            </PrivateRoute>
+            <PrivateRoute path='/manageservices'>
               <Manageservices></Manageservices>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/booking/:serviceId">
               <Details></Details>
             </PrivateRoute>
