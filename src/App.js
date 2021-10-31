@@ -16,6 +16,9 @@ import Header from './Pages/Shared/Header/Header';
 import LocationGallery from './Pages/Gallery/LocationGallery/LocationGallery';
 import Manageservices from './Pages/Manageservices/Manageservices';
 import UpdateData from './Pages/UpdateData/UpdateData';
+import Orderpackage from './Pages/Orderpackage/Orderpackage';
+import ShowmyOrder from './Pages/ShowmyOrder/ShowmyOrder';
+import MyAllOrders from './Pages/MyAllOrders/MyAllOrders';
 
 function App() {
   return (
@@ -48,6 +51,15 @@ function App() {
             <Route path='/register'>
               <Register></Register>
             </Route>
+            <Route path='/orderpackege'>
+              <Orderpackage></Orderpackage>
+            </Route>
+            <Route path='/myorder'>
+              <ShowmyOrder></ShowmyOrder>
+            </Route>
+            {/* <Route path='/myallorder'>
+              <MyAllOrders></MyAllOrders>
+            </Route> */}
             <PrivateRoute path='/service/updatedata/:serviceId'>
               <UpdateData></UpdateData>
             </PrivateRoute>

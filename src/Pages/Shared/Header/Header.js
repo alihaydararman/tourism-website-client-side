@@ -23,6 +23,10 @@ const Header = () => {
                                 <NavDropdown.Item as={HashLink} to="/manageservices">Manage Services</NavDropdown.Item>
 
                             </NavDropdown>
+                            <NavDropdown title="ORDER" id="collasible-nav-dropdown">
+                                <NavDropdown.Item as={HashLink} to="/myorder">My Order</NavDropdown.Item>
+                                {/* <NavDropdown.Item as={HashLink} to="/myallorder">All Order</NavDropdown.Item> */}
+                            </NavDropdown>
                             <Nav.Link as={HashLink} to="/home#doctors">TEAMS MEMBER</Nav.Link>
                             <Nav.Link as={HashLink} to="contact#contact">CONTACT</Nav.Link>
                             <NavDropdown title="GALLERY" id="collasible-nav-dropdown">

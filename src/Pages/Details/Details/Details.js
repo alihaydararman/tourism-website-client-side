@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 
 
@@ -26,7 +27,7 @@ const Details = () => {
                     <p class="card-text">{details.description}</p>
                     <h4 class="card-text"><small class="text-muted">Price :{details.price}</small></h4>
                     <h4 class="card-text"><small class="text-muted">Package :{details.packege}</small></h4>
-                    <button className="btn btn-primary">Confirm Booking</button>
+                    <Link to='/orderpackege'><button className="btn btn-primary">Confirm Booking</button></Link>
                 </div>
             </div>
 
